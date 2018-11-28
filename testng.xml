@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite One">
+	<test name="Test One">
+		<parameter name="sUsername" value="anhkim.n@intergreat.com" />
+		<parameter name="sPassword" value="anh123" />
+		<classes>
+			<class name="taketest.CMcheckout" />
+		</classes>
+	</test>
+</suite>
